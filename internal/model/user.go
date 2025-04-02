@@ -28,7 +28,7 @@ type User struct {
 	Metadata           *string        `gorm:"type:text" json:"metadata,omitempty"`
 
 	Roles       []Role       `gorm:"many2many:user_roles;" json:"roles,omitempty"`
-	Permissions []Permission `gorm:"many2many:user_permissions;" json"permissions,omitempty"`
+	Permissions []Permission `gorm:"many2many:user_permissions;" json:"permissions,omitempty"`
 }
 
 // SafeUser returns a User object with sensitive fields removed
