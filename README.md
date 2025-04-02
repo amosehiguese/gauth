@@ -27,8 +27,8 @@ go get github.com/amosehiguese/gauth
 package main
 
 import (
-    "github.com/gauth"
-    "github.com/gauth/config"
+    "github.com/amosehiguese/gauth"
+    "github.com/amosehiguese/gauth/config"
     "github.com/gin-gonic/gin"
 )
 
